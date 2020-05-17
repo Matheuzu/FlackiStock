@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/master.css">
+        <title>Tabela Investimentos</title>
+    </head>
+    <body>
+        <header id="cabecalho">
+            Investimentos <b>Easyinvest</b>      
+        </header>
+
+        <div id="bntAdicionar">
+            <button class="adc" id="aa"><i class="fas fa-plus"></i> Adicionar novo Valor de Ação</button>
+            <button class="adc" id="bb"><i class="fas fa-plus"></i> Adicionar novo Valor de Ação</button><br>
+        </div> 
+
+        <div id="adicionar">
+            <form action="" id="indicar">
+                <header id="headerInd">Valor da Ação</header>
+                <label id="aj">Dia: </label>
+                <input type="date" id="dia"><br>
+                <label for="" id="aj">Ações: </label>
+                <select id="options" name="cars">
+                    <option value="oi">Oi</option>
+                    <option value="Sinqia">Sinqia</option>
+                    <option value="banco do brasil">Banco do Brasil</option>
+                </select><br>   
+                <label for="" id="aj">Preço da Ação: </label>
+                <input type="text" id="preco"><br>
+                <input type="submit" value="Enviar" id="btn">
+            </form>
+
+            <form action="" id="quantidade">
+                <header id="headerInd">Quantidade das Ações</header>
+                <label for="" id="aj">Ações: </label>
+                <select id="options" name="cars">
+                    <option value="oi">Oi</option>
+                    <option value="Sinqia">Sinqia</option>
+                    <option value="banco do brasil">Banco do Brasil</option>
+                </select><br>   
+                <label for="" id="aj">Qntd. da Ação: </label>
+                <input type="text" id="preco"><br>
+                <input type="submit" value="Enviar" id="btn">
+            </form>
+
+        </div>
+
+        <div id="meses">
+            <i class="fas fa-chevron-circle-left" id="antes"></i>
+            <span id="mes"></span>
+            <i class="fas fa-chevron-circle-right" id="proximo"></i>
+        </div>
+
+        <div class="coluna">
+
+            <ul class="dia a">
+                <li class="header"><b>Dias</b></li>
+                <li>01/05/2020</li>
+                <li>02/05/2020</li>
+            </ul>
+
+            <ul class="oi a">
+                <li class="header"><b>Oi</b></li>
+                <li>R$ 3,00</li>
+                <li class="subiu">R$ 4,00 (1,5% <i class="fas fa-arrow-up"></i>)</li>
+            </ul>
+
+            <ul class="sinqia a">
+                <li class="header"><b>Sinqia</b></li>
+                <li>R$ 3,00</li>
+                <li class="caiu">R$ 2,00 (1,5% <i class="fas fa-arrow-down"></i>)</li>
+            </ul>
+
+            <ul class="bdb a">
+                <li class="header"><b>B. do Brasil</b></li>  
+                <li>R$ 3,00</li>
+                <li class="subiu">R$ 6,00 (1,5% <i class="fas fa-arrow-up"></i>)</li>
+            </ul>
+
+            <ul class="bova a">
+                <li class="header"><b>BOVA11</b></li>  
+                <li>R$ 3,00</li>
+                <li class="subiu">R$ 6,00 (1,5% <i class="fas fa-arrow-up"></i>)</li>
+            </ul>
+
+            <ul class="total a">
+                <li class="header"><b>Total</b></li>  
+                <li>R$ 9,00</li>
+                <li>R$ 12,00</li>
+            </ul>
+
+        </div>
+        <script src="js/aparecer.js"></script>
+        <script src="js/meses.js"></script>
+    </body>
+</html>

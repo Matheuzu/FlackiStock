@@ -18,7 +18,7 @@
 
 /* Indicar preço e a quantidade das ações */
 
-#indicar, #quantidade{ 
+#indicar, #quantidade, #novo{ 
   text-align: left;
   width: 28%;
   border-radius: 5px;
@@ -32,7 +32,7 @@
   padding-left: 25px;
 }
 
-#options, #preco, #dia{
+#options, #preco, #dia, #inpNovo{
   padding: 5px;
   outline: 0;
   border-radius: 5px;
@@ -149,6 +149,7 @@ li {
 .adc{
   text-align: center;
   padding: 10px 50px;
+  width: 29%;
   border: 0;
   background: #4a4a4a;
   border-radius: 20px;

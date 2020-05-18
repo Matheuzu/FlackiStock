@@ -10,15 +10,28 @@
     </head>
     <body>
         <header id="cabecalho">
-            Flacki<b>Stock</b>      
+            Flacki<b>Stock</b> - Gestor de Investimentos      
         </header>
 
         <div id="bntAdicionar">
-            <button class="adc" id="aa"><i class="fas fa-plus"></i> Adicionar novo Valor de Ação</button>
-            <button class="adc" id="bb"><i class="fas fa-plus"></i> Adicionar novo Valor de Ação</button><br>
+            <button class="adc" id="aa"><i class="fas fa-plus"></i> Adicionar nova Ação</button>
+            <button class="adc" id="bb"><i class="fas fa-plus"></i> Adicionar novo Valor de Ação</button>
+            <button class="adc" id="cc"><i class="fas fa-plus"></i> Adicionar novo Qtnd. de Ações</button><br>
         </div> 
 
         <div id="adicionar">
+
+            <form action="" id="novo">
+                <header id="headerInd">Nova Ação</header>
+                <label for="" id="aj">Nome da ação: </label>
+                <input type="text" id="inpNovo"><br>
+                <label id="aj">Dia: </label>
+                <input type="date" id="dia"><br>
+                <label for="" id="aj">Valor Inicial Ação: </label>
+                <input type="text" id="preco"><br>
+                <input type="submit" value="Enviar" id="btn">
+            </form>
+
             <form action="" id="indicar">
                 <header id="headerInd">Valor da Ação</header>
                 <label id="aj">Dia: </label>
